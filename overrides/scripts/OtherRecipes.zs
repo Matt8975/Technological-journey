@@ -1619,7 +1619,7 @@ Utils.removeRecipeByOutput(mixer, [<gregtech:meta_item_1:2133> * 5], [], true);
 mixer.recipeBuilder()
         .inputs([<gregtech:meta_item_1:2044> * 4, <gregtech:meta_item_1:2016>])
         .outputs(<gregtech:meta_item_1:2133> * 5)
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 11}))
         .duration(280)
         .EUt(30)
         .buildAndRegister();
@@ -2412,7 +2412,7 @@ assembler.recipeBuilder()
 .buildAndRegister();
 
 //new electronic circuit recipe
-
+/*
 Utils.removeRecipeByOutput(circuit_assembler, [<gregtech:meta_item_2:32488>], [], false);
 
 circuit_assembler.recipeBuilder()
@@ -2430,7 +2430,7 @@ circuit_assembler.recipeBuilder()
 .duration(100)
 .EUt(16)
 .buildAndRegister();
-
+*/
 
 compressor.recipeBuilder()
 .inputs([<ore:ingotSilver> * 9])
@@ -2666,7 +2666,7 @@ Utils.removeRecipeByOutput(largeMix, [<gregtech:meta_item_1:2133> * 5], [], true
 largeMix.recipeBuilder()
     .inputs([<gregtech:meta_item_1:2016>, <gregtech:meta_item_1:2044> * 4])
     .outputs(<gregtech:meta_item_1:2133> * 5)
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 5}))
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 11}))
     .duration(280)
     .EUt(30)
     .buildAndRegister();
@@ -2715,3 +2715,27 @@ assembly_line.recipeBuilder()
     .buildAndRegister();
 <actuallyadditions:item_misc:5>.addTooltip("Smelt Quartzite dust twice");
 <actuallyadditions:item_dust:7>.addTooltip("Smelt Quartzite dust");
+
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 13 as short}]}).addTooltip("§4DO NOT STACK THESE IN THE ANVIL IT WILL VOID YOUR BOOKS");
+
+
+Utils.removeRecipeByOutput(engraver, [<gregtech:meta_item_2:32464>], [], true);
+Utils.removeRecipeByOutput(large_engrav, [<gregtech:meta_item_2:32464>], [], true);
+
+engraver.recipeBuilder()
+    .inputs([<gregtech:meta_item_2:32440>])
+    .outputs(<gregtech:meta_item_2:32464>)
+    .notConsumable(<ore:craftingLensWhite>)
+    .duration(45*20)
+    .EUt(18)
+    .buildAndRegister();
+
+large_engrav.recipeBuilder()
+    .inputs([<gregtech:meta_item_2:32440>])
+    .outputs(<gregtech:meta_item_2:32464>)
+    .notConsumable(<ore:craftingLensWhite>)
+    .duration(45*20)
+    .EUt(18)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(forming, [<gregtech:meta_item_2:15518>], [], true);

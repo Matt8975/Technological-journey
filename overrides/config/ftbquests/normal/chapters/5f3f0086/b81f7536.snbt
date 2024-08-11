@@ -2,7 +2,9 @@
 	x: 6.5d,
 	y: -4.0d,
 	text: [
-		"A dev/Null can help keep stone out of your inventory while mining."
+		"A dev/Null can help keep stone out of your inventory while mining.",
+		"",
+		"Each slot of the null can hold 256 items. matching items past that number are voided. This can be useful for mining but don’t put building blocks in here"
 	],
 	dependencies: [
 		"9c17be30"

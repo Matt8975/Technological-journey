@@ -2,7 +2,7 @@
 	x: -6.5d,
 	y: -3.5d,
 	text: [
-		"Up to 3 capacity cards can be placed into an interface. These will allow an extra interface worth of patterns to be placed into the same interface, though it does come with 4x the power cost per card."
+		"Up to 3 capacity cards can be placed into an interface. These will allow an extra interface worth of patterns to be placed into the same interface. Using these cards does come with a energy cost, up to an 4x energy cost with 3 cards."
 	],
 	dependencies: [
 		"f3a3850c"

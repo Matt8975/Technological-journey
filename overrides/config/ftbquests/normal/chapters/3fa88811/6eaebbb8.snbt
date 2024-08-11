@@ -1,0 +1,15 @@
+{
+	x: -8.5d,
+	y: -6.5d,
+	text: [
+		"This can help you pattern large patterns such as the jei pattern for the MEBF if you request the entire mutliblock."
+	],
+	optional: true,
+	tasks: [{
+		uid: "17768179",
+		type: "item",
+		items: [{
+			item: "ae2fc:ultimate_encoder"
+		}]
+	}]
+}

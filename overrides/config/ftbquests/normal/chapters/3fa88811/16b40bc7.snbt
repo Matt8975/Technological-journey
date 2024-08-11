@@ -2,7 +2,7 @@
 	x: -7.5d,
 	y: -4.5d,
 	text: [
-		"There has been a disturbing number of people trying to use AE2FC (fluid crafting) in this pack, and this quest was made to heavily discourage it. Not only are you shooting yourself in the foot automation-wise, but it is incredibly awkward to make this work without causing extreme lag. Just like playing with channels but even more so - it's doable, but generally very hard and not worth the effort it will take."
+		"You may have noticed this pack contains fluid crafting rework. This mod is beneficial for smaller crafts like melting metals for assline/CAL, polyethylene early on to avoid filling buffers, and soldering alloys. But please don’t get into a habit of using it for everything. For a large amount of chemistry, it is much more TPS-efficient to fully passive and pause the machine via detector cover and machine controller cover. "
 	],
 	tasks: [{
 		uid: "9864d8b4",

@@ -6,6 +6,7 @@
 		"This planet has a variety of hot and cold regions. This planet has liquid veins of oxygen, hydrogen, and liquid air."
 	],
 	dependencies: [
+		"ef91b243",
 		"81372634"
 	],
 	tasks: [{

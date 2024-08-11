@@ -6,12 +6,12 @@
 	],
 	optional: true,
 	tasks: [{
-		uid: "17e17f14",
+		uid: "fc42c2c3",
 		type: "item",
 		items: [{
-			id: "thermalinnovation:magnet",
+			id: "actuallyadditions:item_suction_ring",
 			tag: {
-				Energy: 40000
+				Energy: 0
 			}
 		}],
 		ignore_nbt: 1b

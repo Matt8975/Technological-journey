@@ -1,0 +1,74 @@
+{
+	title: "Rocket skip if you don't want to deal with AR. more skips follow",
+	x: 3.0d,
+	y: 5.5d,
+	text: [
+		"FOR THE LOVE OF GOD HAVE A WAY TO REMOVE FALL DAMAGE"
+	],
+	dependencies: [
+		"e6d4eebb"
+	],
+	optional: true,
+	tasks: [{
+		uid: "10fe7b80",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rocketmotor"
+		}],
+		count: 5L,
+		consume_items: true
+	},
+	{
+		uid: "98db3ac5",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:guidancecomputer"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "df2df452",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:planetidchip"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "010f1616",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:fueltank"
+		}],
+		count: 10L,
+		consume_items: true
+	},
+	{
+		uid: "ec5f7c2e",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:seat"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "239f595f",
+		type: "item",
+		item: {
+			id: "draconicevolution:dislocator",
+			tag: {
+				X: 0.5d,
+				Y: 254.64375994610788d,
+				Z: 0.5d,
+				Yaw: -104.096695f,
+				Pitch: 86.1f,
+				Dimension: 3,
+				IsSet: 1b,
+				DimentionName: "planet",
+				display: {
+					Name: "Dislocator Moon"
+				}
+			}
+		}
+	}]
+}

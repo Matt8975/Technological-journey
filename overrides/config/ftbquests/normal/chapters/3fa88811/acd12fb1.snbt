@@ -1,0 +1,22 @@
+{
+	x: -7.5d,
+	y: -5.5d,
+	text: [
+		"Dual interfaces are useful for instances in two instances. ",
+		"",
+		"1: you want to supply both items and fluids from the same block.",
+		"2: you want to return both items and fluids to ae2 from the same block.",
+		"",
+		"They are not needed when using fluid crafting patterns. A normal interface can send both fluids and items."
+	],
+	dependencies: [
+		"f3a3850c"
+	],
+	tasks: [{
+		uid: "289510e6",
+		type: "item",
+		items: [{
+			item: "ae2fc:dual_interface"
+		}]
+	}]
+}

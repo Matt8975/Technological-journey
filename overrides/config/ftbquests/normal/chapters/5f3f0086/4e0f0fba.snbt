@@ -13,8 +13,8 @@
 		}]
 	}],
 	rewards: [{
-		uid: "845fa18a",
+		uid: "f71d3140",
 		type: "item",
-		item: "actuallyadditions:block_giant_chest"
+		item: "actuallyadditions:block_giant_chest_large"
 	}]
 }

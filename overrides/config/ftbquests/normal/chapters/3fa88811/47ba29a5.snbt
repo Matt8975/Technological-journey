@@ -1,0 +1,24 @@
+{
+	x: -8.5d,
+	y: -5.5d,
+	text: [
+		"To get the best out of fluid crafting you will need the fluid variants of your terminals "
+	],
+	dependencies: [
+		"16b40bc7"
+	],
+	tasks: [{
+		uid: "4d857304",
+		type: "item",
+		items: [{
+			item: "ae2fc:part_fluid_pattern_terminal"
+		}]
+	},
+	{
+		uid: "930d896a",
+		type: "item",
+		items: [{
+			item: "ae2fc:part_fluid_pattern_ex_terminal"
+		}]
+	}]
+}

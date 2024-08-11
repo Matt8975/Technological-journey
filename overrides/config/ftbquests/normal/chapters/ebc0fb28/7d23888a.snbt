@@ -1,0 +1,32 @@
+{
+	x: -5.0d,
+	y: 1.0d,
+	text: [
+		"Battery tower + nitrobenzene LGT can give you a large amount of power. ",
+		"",
+		"Have fun!"
+	],
+	dependencies: [
+		"b8995d54"
+	],
+	tasks: [{
+		uid: "4717ad97",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2542"
+		}]
+	}],
+	rewards: [{
+		uid: "3817503f",
+		type: "item",
+		item: {
+			id: "gtadditions:ga_meta_item",
+			Damage: 32300s,
+			tag: {
+				GT.PartStats: {
+					Material: "draconium"
+				}
+			}
+		}
+	}]
+}

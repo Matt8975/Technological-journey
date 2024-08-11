@@ -1,0 +1,17 @@
+{
+	x: -8.5d,
+	y: -4.5d,
+	text: [
+		"To get started with ae2 fluid crafting you need to place one of these anywhere on your main network."
+	],
+	dependencies: [
+		"16b40bc7"
+	],
+	tasks: [{
+		uid: "0da2b625",
+		type: "item",
+		items: [{
+			item: "ae2fc:fluid_discretizer"
+		}]
+	}]
+}

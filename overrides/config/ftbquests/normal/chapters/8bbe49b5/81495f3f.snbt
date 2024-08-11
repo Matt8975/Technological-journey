@@ -3,7 +3,8 @@
 	x: 6.5d,
 	y: 0.0d,
 	text: [
-		"Make 4 Airtight Seal books for some free levels. You can put it on EnderIO armor (and draconic, later on) to get arround the spacesuit. "
+		"Make 4 Airtight Seal books for some free levels. You can put it on EnderIO armor (and draconic, later on) to get arround the spacesuit. ",
+		"Fill the tank via the gas charge pad."
 	],
 	dependencies: [
 		"d4a23332"

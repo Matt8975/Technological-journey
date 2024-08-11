@@ -7,13 +7,13 @@
 	hide_dependency_lines: true,
 	optional: true,
 	tasks: [{
-		uid: "7c6acd1a",
+		uid: "1968a634",
 		type: "item",
 		items: [{
-			id: "actuallyadditions:item_drill",
-			Damage: 3s,
+			id: "thermalinnovation:drill",
 			tag: {
-				Energy: 0
+				Energy: 40000,
+				Mode: 1
 			}
 		}],
 		ignore_nbt: 1b
