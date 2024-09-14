@@ -161,7 +161,9 @@
                     "textures:main_menu/slideshow_36.png",
                     "textures:main_menu/slideshow_37.png",
                     "textures:main_menu/slideshow_38.png",
-                    "textures:main_menu/slideshow_39.png"
+                    "textures:main_menu/slideshow_39.png",
+                    "textures:main_menu/slideshow_40.png",
+                    "textures:main_menu/slideshow_41.png"
                 ],
                 "displayDuration": 20,
                 "fadeDuration": 35

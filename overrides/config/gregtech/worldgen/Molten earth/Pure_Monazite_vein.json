@@ -18,7 +18,7 @@
         "value": {
             "type": "weight_random",
             "values": [{
-                    "weight": 60,
+                    "weight": 30,
                     "value": "ore:pure:bastnasite"
                 },
                 {
@@ -28,7 +28,12 @@
                 {
                     "weight": 20,
                     "value": "ore:neodymium"
+                },
+                {
+                    "weight": 30,
+                    "value": "ore:tungstate"
                 }
+                
             ]
         }
     }
