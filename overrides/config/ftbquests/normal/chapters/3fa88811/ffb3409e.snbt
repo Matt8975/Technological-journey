@@ -5,10 +5,10 @@
 		"68c9f480"
 	],
 	tasks: [{
-		uid: "4a654c3f",
+		uid: "0cb493d5",
 		type: "item",
 		items: [{
-			item: "extracells:storage.component 1 8"
+			item: "nae2:material 1 5"
 		}]
 	}]
 }

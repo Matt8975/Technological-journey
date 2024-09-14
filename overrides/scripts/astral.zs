@@ -290,7 +290,7 @@ chemreactor.recipeBuilder()
 // Octaazacubane Solution
 
 chemreactor.recipeBuilder()
-    .fluidInputs(<liquid:oxygen> * 2000)
+    .fluidInputs(<liquid:oxygen> * 2000, <liquid:distilled_water> * 3000)
     .inputs(<gtadditions:ga_dust:144> * 8)
     .fluidOutputs(<liquid:octaazacubanesolution> * 3000)
     .outputs(<gtadditions:ga_dust:356> * 4)

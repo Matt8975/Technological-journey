@@ -6,15 +6,15 @@
 	],
 	optional: true,
 	tasks: [{
-		uid: "f2a3c6af",
+		uid: "fde9b11e",
 		type: "item",
 		items: [{
-			item: "extracpus:crafting_storage_16384k"
+			item: "nae2:storage_crafting_16384k"
 		}]
 	}],
 	rewards: [{
-		uid: "b0f81fc4",
+		uid: "cc82860f",
 		type: "item",
-		item: "extracpus:crafting_storage_16384k"
+		item: "nae2:storage_crafting_16384k"
 	}]
 }

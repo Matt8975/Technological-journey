@@ -1,11 +1,12 @@
 {
 	x: 21.5d,
-	y: 0.5d,
+	y: 1.0d,
 	shape: "hexagon",
 	text: [
-		"You will never have to process mendelevium. In fact, it's generally a bad idea to do so, nor will you need any specific isotope (unless you want to make Hastelloy K243). ",
-		"",
-		"This, therefore, is the end of nuclear. You never have to even look at another steam cracked hexafluoride if you set up your nuclear well."
+		""
+	],
+	dependencies: [
+		"7d4078a6"
 	],
 	tasks: [{
 		uid: "b8560f28",

@@ -2739,3 +2739,12 @@ large_engrav.recipeBuilder()
     .buildAndRegister();
 
 Utils.removeRecipeByOutput(forming, [<gregtech:meta_item_2:15518>], [], true);
+
+assembler.recipeBuilder()
+    .inputs([<minecraft:iron_bars> *3, <gregtech:meta_item_1:12033> * 6])
+    .outputs(<advancedrocketry:carbonscrubbercartridge>)
+    .duration(90)
+    .EUt(30)
+    .buildAndRegister();
+    
+recipes.remove(<gregtech:machine:2552>);

@@ -29,14 +29,14 @@ recipes.addShapeless(<draconicevolution:draconium_block>, [<gregtech:meta_block_
     assembly_line.recipeBuilder()
     .inputs(<gregtech:frame_tritanium> * 10,<gregtech:meta_item_1:12518> * 10,<gregtech:meta_item_1:12524> * 10,<gregtech:meta_item_1:12780> * 10,<gregtech:meta_item_2:32436> * 2,<gregtech:meta_item_1:32676>, <gregtech:meta_item_1:32686>, <gregtech:meta_item_1:32696>, <ore:circuitInfinite>)
     .outputs(<draconicevolution:draconic_core> * 2)
-    .duration(600)
+    .duration(1200)
     .EUt(524288)
     .buildAndRegister();
 
     assembly_line.recipeBuilder()
     .inputs(<gregtech:frame_hdcs>* 10,<gregtech:meta_item_1:12695> * 10,<gregtech:meta_item_1:12518> * 10,<gregtech:meta_item_1:12716> * 10,<gregtech:meta_item_1:12854> * 10,<gregtech:meta_item_1:32677>,<gregtech:meta_item_1:32687>,<gregtech:meta_item_1:32697>,<ore:circuitUev>,<draconicevolution:draconic_core>)
     .outputs(<draconicevolution:wyvern_core> * 2)
-    .duration(600)
+    .duration(1200)
     .EUt(2097152)
     .buildAndRegister();
 
@@ -121,7 +121,7 @@ recipes.addShapeless(<draconicevolution:draconium_block>, [<gregtech:meta_block_
     .fluidInputs(<liquid:dubnium> * 1296,<liquid:californium>* 2592)
     .outputs(<gregtech:machine:1004>)
     .duration(600)
-    .EUt(131072)
+    .EUt(7864320)
     .buildAndRegister();
 //eggBoi
    assembly_line.recipeBuilder()
@@ -129,7 +129,7 @@ recipes.addShapeless(<draconicevolution:draconium_block>, [<gregtech:meta_block_
     .fluidInputs(<liquid:incoloy813> * 1296,<liquid:einsteinium> * 2592)
     .outputs(<gregtech:machine:1006>)
     .duration(600)
-    .EUt(524288)
+    .EUt(7864320)
     .buildAndRegister();
     //chaos
     assembly_line.recipeBuilder()
@@ -226,7 +226,7 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
     .inputs(<draconicevolution:wyvern_core> * 4,<gregtech:meta_item_1:12518> * 10,<gregtech:cable:5518> * 10,<gregtech:meta_item_1:32725>)
     .fluidInputs(<liquid:redstone> * 1440)
     .outputs(<draconicevolution:wyvern_energy_core>)
-    .duration(200)
+    .duration(400)
     .EUt(31457280)
     .buildAndRegister();
 
@@ -234,7 +234,7 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
     .inputs(<draconicevolution:awakened_core> * 4,<gregtech:meta_item_1:12519> * 10,<gregtech:cable:5519> * 10,<gregtech:meta_item_1:32726>)
     .fluidInputs(<liquid:redstone> * 1440)
     .outputs(<draconicevolution:draconic_energy_core>)
-    .duration(100)
+    .duration(400)
     .EUt(31457280)
     .buildAndRegister();
 

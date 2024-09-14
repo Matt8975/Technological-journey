@@ -22,13 +22,25 @@
 		}]
 	}],
 	rewards: [{
-		uid: "e6e2b942",
+		uid: "0b8148af",
 		type: "item",
-		item: "gregtech:meta_item_1 1 32598"
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 32598s,
+			tag: {
+				Charge: 1000000000L
+			}
+		}
 	},
 	{
-		uid: "f002e025",
+		uid: "1a734fa2",
 		type: "item",
-		item: "gtadditions:ga_meta_item2 1 102"
+		item: {
+			id: "gtadditions:ga_meta_item2",
+			Damage: 103s,
+			tag: {
+				Charge: 13107200L
+			}
+		}
 	}]
 }

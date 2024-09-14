@@ -6,10 +6,10 @@
 	],
 	optional: true,
 	tasks: [{
-		uid: "dd6c8c39",
+		uid: "fbd2ba3d",
 		type: "item",
 		items: [{
-			item: "extracpus:crafting_storage_1024k"
+			item: "nae2:storage_crafting_1024k"
 		}]
 	}]
 }

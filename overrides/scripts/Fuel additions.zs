@@ -11,11 +11,11 @@ var AWlasma = cool.create(<liquid:plasma.awaken_draconium> * 144 , 40, 2048, <li
 var infilasma = cool.create(<liquid:plasma.chaosalloy> * 144 , 80, 2048, <liquid:chaosalloy> * 144);
 //RecipeMaps.PLASMA_GENERATOR_FUELS.addRecipe(infilasma);
 
-var magic_gasoline = mods.gregtech.recipe.FuelRecipe.create(<liquid:starlight_rocketfuel> * 6, 420, 2048);
+var magic_gasoline = mods.gregtech.recipe.FuelRecipe.create(<liquid:starlight_rocketfuel> * 6, 420, 8192);
 GaMap.ROCKET_FUEL_RECIPES.addRecipe(magic_gasoline);
 
 var greenRocketOld = mods.gregtech.recipe.FuelRecipe.create(<liquid:rocket_fuel_a> * 3, 160, 2048);
-var greenRocketNew = mods.gregtech.recipe.FuelRecipe.create(<liquid:rocket_fuel_a> * 7, 80, 2048);
+var greenRocketNew = mods.gregtech.recipe.FuelRecipe.create(<liquid:rocket_fuel_a> * 7, 80, 8192);
 GaMap.ROCKET_FUEL_RECIPES.removeRecipe(greenRocketOld);
 GaMap.ROCKET_FUEL_RECIPES.addRecipe(greenRocketNew);
 
